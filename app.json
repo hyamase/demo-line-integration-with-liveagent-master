@@ -1,20 +1,20 @@
 {
   "name": "LINE Integration Sample with Salesforce Liveagent Chat",
   "description": "Line の Messaging API と Liveagent チャットをつなぐ Heroku のサンプルアプリです。複数ユーザーの同時接続は出来ません。",
-  "repository": "https://github.com/hrk623/demo-line-integration-with-liveagent.git",
+  "repository": "https://github.com/hyamase/demo-line-integration-with-liveagent-master.git",
   "addons": ["fixie:tricycle"],
   "env": {
     "LINE_CHANNEL_ACCESS_TOKEN": {
             "description": "LINE - Channel Access Token",
-            "value": "mlOxmjIa+Ej+KxlQCjkwHc6LsNUF6qDFpZqzLppzo1jjxLoRhd+umbTITnLG8G2XGqGqwDPM1R7VuAMR0Bx5PhlWQ0Fum0SD7P58cN/C3x6p8+CNqMOlLg9dIAFsREUh7+GL8UQhWlu0WhK95GeRzwdB04t89/1O/w1cDnyilFU="
+            "value": "Change This Value"
     },
     "LINE_CHANNEL_ID": {
             "description": "LINE - Channel ID",
-            "value": "1521457578"
+            "value": "Change This Value"
     },
     "LINE_CHANNEL_SECRET": {
             "description": "LINE - Channel Secret",
-            "value": "5b0199f05d700c9bbf7ca6760d480963"
+            "value": "Change This Value"
     },
     "LIVEAGENT_API_VERSION": {
             "description": "Salesforce - Liveagent Rest API のバージョン",
@@ -22,19 +22,19 @@
     },
     "LIVEAGENT_BUTTON_ID": {
             "description": "Salesforce - Liveagent Chat のボタン ID",
-            "value": "5736F0000008YYX"
+            "value": "Change This Value"
     },
     "LIVEAGENT_DEPLOYMENT_ID": {
             "description": "Salesforce - Liveagent Chat のリリース ID",
-            "value": "5726F000000CkX2"
+            "value": "Change This Value"
     },
     "LIVEAGENT_ORGANIZATION_ID": {
             "description": "Salesforce - Liveagent Chat の組織 ID",
-            "value": "00D6F000001OKsH"
+            "value": "Change This Value"
     },
     "LIVEAGENT_POD": {
             "description": "Salesforce - Liveagent API のエンドポイント(ホストのみ)",
-            "value": "d.la1-c2-ukb.salesforceliveagent.com"
+            "value": "Change This Value"
     }
   },
 }
